@@ -8,44 +8,51 @@
     <title>AI Swedish Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Swedish Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Swedish Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Swedish poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Swedish poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Rhodeoster" target="_blank"> Rhode Öster </a>
-      and is open sourced on
-      <a
-        href="https://github.com/Rhodeoster/swedish-poem-generator"
-        target="_blank"
-      >
-        Github
-      </a>
-      and is hosted on
-      <a href="https://ai-swedish-poem-generator.netlify.app/" target="_blank">
-        Netlify.</a
-      >
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Rhodeoster" target="_blank">
+          Rhode Öster
+        </a>
+        and is open sourced on
+        <a
+          href="https://github.com/Rhodeoster/swedish-poem-generator"
+          target="_blank"
+        >
+          Github
+        </a>
+        and is hosted on
+        <a
+          href="https://ai-swedish-poem-generator.netlify.app/"
+          target="_blank"
+        >
+          Netlify.</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
