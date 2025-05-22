@@ -7,28 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
 
-    <title>AI Swedish Poem Generator</title>
+    <title>AI Word Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI Swedish Poem Generator</h1>
+        <h1>AI Word Poem Generator</h1>
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Swedish poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of a poem you'd like to generate"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flower, Paris or Love</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
